@@ -18,11 +18,18 @@ jobs:
 
       - name: Setup Git
         run: |
-          git config --global user.name 'your-username'
-          git config --global user.email 'your-email'
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+      - name: Git status
+        run: git status
+
+      - name: Git log
+        run: git log -1
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
           folder: dist
+          token: ${{ secrets.GITHUB_TOKEN }}
