@@ -19,7 +19,6 @@ export default defineConfig(({ command }) => {
               return 'vendor';
             }
           },
-          // entryFileNames: 'commonHelpers.js', // Можливо варто закоментувати або видалити це
         },
       },
       outDir: '../dist',
