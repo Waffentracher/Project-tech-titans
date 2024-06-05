@@ -28,7 +28,7 @@
   "main": "vite.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Fovardell/TechTitans.git"
+    "url": "git+https://github.com/Waffentracher/Project-tech-titans.git"
   },
   "keywords": [
     "team",
@@ -38,7 +38,7 @@
     "js"
   ],
   "bugs": {
-    "url": "https://github.com/Fovardell/TechTitans/issues"
+    "url": "https://github.com/Waffentracher/Project-tech-titans/issues"
   },
   "homepage": "https://fovardell.github.io/tech-titans/"
 }
