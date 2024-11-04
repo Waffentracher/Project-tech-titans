@@ -9,7 +9,6 @@ export default defineConfig(({ command }) => {
       [command === 'serve' ? 'global' : '_global']: {},
     },
     root: 'src',
-    base: '/project-tech-titans/',
     build: {
       sourcemap: true,
       rollupOptions: {
