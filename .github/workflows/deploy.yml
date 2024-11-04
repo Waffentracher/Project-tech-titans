@@ -26,4 +26,3 @@ jobs:
         with:
           branch: gh-pages
           folder: dist
-          token: ${{ secrets.SUPER_SECRET_KEY }}
