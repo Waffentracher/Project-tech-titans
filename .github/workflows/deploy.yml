@@ -26,4 +26,4 @@ jobs:
         with:
           branch: gh-pages
           folder: dist
-          token: ${{ secrets.ACTIONS_DEPLOY_KEY_2 }}
+          token: ${{ secrets.SUPER_SECRET_KEY }}
